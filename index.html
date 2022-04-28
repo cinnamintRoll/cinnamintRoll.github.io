@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <title>Elections 2022</title>
+    <link rel="icon" href="assets/img/Elections 2022 Logo.png">
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <!--Roboto-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+    <!--Additional Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Varela+Round&display=swap" rel="stylesheet" />
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Extra Styles-->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="d-flex h-100 text-center text-white bg-dark">
+    <style>
+        body {
+            background-image: url("assets/img/material\ bg2.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <div>
+                <h3 class="float-md-start mb-0">
+                    <span class="fs-4" id="iconText"></span>
+                    </a>
+                </h3>
+                <nav class="nav nav-masthead justify-content-center float-md-end">
+                    <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                </nav>
+            </div>
+        </header>
+
+        <section class="grainy-gradient-intro">
+            <svg height="0" width="0">
+                <filter id='f'>
+                    <feTurbulence type='fractalNoise' baseFrequency='.5'/>
+                </filter>
+                <main class="px-3">
+                    <a href="home.html">
+                        <img src="assets/img/Elections 2022 Logo.png" alt="Elections 2022" width="480"
+                            class="img fluid" />
+                    </a>
+                    <p class="lead">
+                        <a href="home.html" class="btn btn-lg btn-secondary fw-bold border-dark bg-dark">Learn more</a>
+                    </p>
+                </main>
+            </svg>
+        </section>
+
+        <footer class="mt-auto text-white-50">
+            <p class="text-dark">
+                'Elections 2022' for CS313 - Web Design and Scripting by Adrielle Casem
+                <br><small>Elections 2022 Logo by Adrielle Casem</small>
+            </p>
+        </footer>
+    </div>
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+</body>
+
+</html>
